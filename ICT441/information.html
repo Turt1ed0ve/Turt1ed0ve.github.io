@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/style.css">
+    <style>
+        .container{
+            width: 1400px;
+            margin: 50px auto;
+            border: 1px solid #c2c1c1;
+        }
+        .container h1{
+            text-align: center;
+            margin: 20px 0;
+        }
+        .container form{
+            width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container form label{
+            display: block;
+            margin-bottom: 10px;
+            width: 200px;
+        }
+        .container form>div{
+            margin: 20px 0;
+        }
+        input,select{
+            padding:10px;
+        }
+        input{
+            width: 100%;
+        }
+        button{
+            width: 100px;
+            padding: 10px;
+            background-color: rgb(70, 84, 121);
+            color: white;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+	<!--导航-->
+	<div class="nav">
+		<div>
+			<p>American College of Nursing</p>
+		</div>
+		<div>
+			<ul>
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./about.html">About</a></li>
+				<li><a href="./course.html">Course</a></li>
+				<li><a href="./information.html">Information</a></li>
+				<li><a href="./address.html">Address</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div style="width: 1400px;margin: 0 auto;">
+		<img style="width: 1400px;height: 400px;margin: 0 auto;text-align: center;" src="./images/cou_banner.png" alt="">
+	</div>
+	<div class="container">
+		<h1>Contact Us</h1>
+        <form action="">
+            <div>
+                <label for=""><span style="color: red;">*</span>Email</label>
+                <input type="email" placeholder="Enter your email" style="width: 70%;">
+                <span>@</span>
+                <select>
+                    <option value="wtu.edu">wtu.edu</option>
+                    <option value="163.com">163.com</option>
+                    <option value="qq.com">qq.com</option>
+                </select>
+            </div>
+            <div>
+                <label for=""><span style="color: red;">*</span>Question</label>
+                <input type="text" placeholder="Enter your question">
+            </div>
+            <div>
+                <label for=""><span style="color: red;">*</span>User</label>
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div>
+                <button type="submit">Contact Us</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+	</div>
+	<footer style="width: 100%;text-align: center;padding: 30px 0px;background-color: black;font-size: 18px;color: white;">
+		<p>American College of Nursing</p>
+	</footer>
+	</body>
+</html>
